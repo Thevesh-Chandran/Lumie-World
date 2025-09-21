@@ -1,30 +1,34 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Lumie World</title>
 </head>
 <body>
 
-  <h1>🌟 Lumie World</h1>
+  <h1>🌟 Lumie World – Your AI Learning Companion</h1>
   <p>
-    Lumie World is a personalized AI-powered character interaction app. Users can chat with virtual characters, 
-    build relationships, and experience immersive voice responses generated using Amazon Polly and text-to-speech services.
+    Lumie World is an <b>AI-powered learning companion app</b> that makes language practice fun and engaging. 
+    Users can <b>chat with characters</b>, <b>progress through learning roadmaps</b>, and <b>earn rewards</b> 
+    while improving their skills. The app combines <b>gamification</b>, <b>personalization</b>, and 
+    <b>AI-driven conversations</b> to provide a unique, interactive learning experience.
   </p>
 
-  <h2>✨ Features</h2>
+  <h2>✨ Key Features</h2>
   <ul>
-    <li>💬 <b>Character Chat</b> – Talk to your favorite characters.</li>
-    <li>❤️ <b>Relationship System</b> – Relationship level grows the more you interact.</li>
-    <li>🔊 <b>Voice Integration</b> – Characters respond with audio using <b>Amazon Polly</b> or <b>gTTS</b>.</li>
-    <li>🗂 <b>Profiles</b> – Character settings stored in <code>lumie_profile.json</code>.</li>
-    <li>🌐 <b>Streamlit UI</b> – Web interface for interaction.</li>
+    <li>📝 <b>Profile Assessment</b> – Users answer questions about their language level, interests, and personality to personalize their journey.</li>
+    <li>📚 <b>City Roadmap</b> – Structured learning pathway where topics are generated based on user level (e.g., alphabets for beginners, advanced topics later).</li>
+    <li>💬 <b>Character Chat</b> – Practice conversations with AI characters that adapt to the user’s learning style.</li>
+    <li>❤️ <b>Relationship System</b> – The more you chat with a character, the stronger your relationship grows.</li>
+    <li>🏆 <b>Leaderboard</b> – Compete with friends by earning points through learning and interactions.</li>
+    <li>🛒 <b>Lumie Store</b> – Earn “Lumie Dollars” and redeem them for characters and other rewards.</li>
+    <li>🔊 <b>Voice Integration</b> – Learn through listening and speaking with characters powered by <b>Amazon Polly</b> and <b>gTTS</b>.</li>
   </ul>
 
   <h2>📂 Project Structure</h2>
   <pre>
 ├── LumieWorld(amazon).py   # Main application file
-├── lumie_profile.json      # Character profile & personalization data
+├── lumie_profile.json      # User profile & personalization data
 ├── requirements.txt        # Python dependencies
 ├── polly_audio.mp3         # Generated speech output (Amazon Polly)
 ├── temp_audio.mp3          # Temporary audio storage
@@ -67,9 +71,9 @@ venv\Scripts\activate      # On Windows</code></pre>
   <h2>🚀 Usage</h2>
   <p>Run the app with Streamlit:</p>
   <pre><code>streamlit run LumieWorld(amazon).py</code></pre>
-  <p>Then open the provided local URL in your browser to start interacting with characters.</p>
+  <p>Then open the provided local URL in your browser to start your AI learning journey.</p>
 
-
+ 
 
 </body>
 </html>
