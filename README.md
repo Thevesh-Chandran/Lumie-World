@@ -3,7 +3,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Lumie World</title>
 </head>
 <body>
 
